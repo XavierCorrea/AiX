@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Icons } from '../constants';
 
 const Footer: React.FC = () => {
   return (
@@ -18,29 +19,35 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-slate-900 mb-6 uppercase tracking-wider text-sm">Solutions</h4>
             <ul className="space-y-4 text-slate-600">
-              <li><a href="#" className="hover:text-slate-900 transition-colors">AI Receptionist</a></li>
-              <li><a href="#" className="hover:text-slate-900 transition-colors">Lead Qualifier</a></li>
-              <li><a href="#" className="hover:text-slate-900 transition-colors">Quote Generator</a></li>
-              <li><a href="#" className="hover:text-slate-900 transition-colors">Custom Automation</a></li>
+              <li><a href="#services" className="hover:text-slate-900 transition-colors">AI Receptionist</a></li>
+              <li><a href="#services" className="hover:text-slate-900 transition-colors">Lead Qualifier</a></li>
+              <li><a href="#services" className="hover:text-slate-900 transition-colors">Quote Generator</a></li>
+              <li><a href="#services" className="hover:text-slate-900 transition-colors">Custom Automation</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold text-slate-900 mb-6 uppercase tracking-wider text-sm">Company</h4>
             <ul className="space-y-4 text-slate-600">
-              <li><a href="#" className="hover:text-slate-900 transition-colors">About AIX</a></li>
-              <li><a href="#" className="hover:text-slate-900 transition-colors">Case Studies</a></li>
+              <li><a href="#how-it-works" className="hover:text-slate-900 transition-colors">About AIX</a></li>
+              <li><a href="#how-it-works" className="hover:text-slate-900 transition-colors">Case Studies</a></li>
               <li><a href="#" className="hover:text-slate-900 transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-slate-900 transition-colors">Contact</a></li>
+              <li><a href="#contact" className="hover:text-slate-900 transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
         
         <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-sm text-slate-400">
-          <p>© 2024 AIX Automation Agency. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} AIX Automation Agency. All rights reserved.</p>
           <div className="flex space-x-6">
-            <a href="#" className="hover:text-slate-600">Twitter</a>
-            <a href="#" className="hover:text-slate-600">LinkedIn</a>
-            <a href="#" className="hover:text-slate-600">Instagram</a>
+            <a 
+              href="https://linkedin.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-slate-400 hover:text-slate-900 transition-all transform hover:scale-110" 
+              aria-label="LinkedIn"
+            >
+              <Icons.Linkedin />
+            </a>
           </div>
         </div>
       </div>
