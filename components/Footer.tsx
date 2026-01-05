@@ -20,16 +20,15 @@ const Footer: React.FC = () => {
             <h4 className="font-bold text-slate-900 mb-6 uppercase tracking-wider text-sm">Solutions</h4>
             <ul className="space-y-4 text-slate-600">
               <li><a href="#services" className="hover:text-slate-900 transition-colors">AI Receptionist</a></li>
-              <li><a href="#services" className="hover:text-slate-900 transition-colors">Lead Qualifier</a></li>
-              <li><a href="#services" className="hover:text-slate-900 transition-colors">Quote Generator</a></li>
-              <li><a href="#services" className="hover:text-slate-900 transition-colors">Custom Automation</a></li>
+              <li><a href="#services" className="hover:text-slate-900 transition-colors">AI Lead Qualifier</a></li>
+              <li><a href="#services" className="hover:text-slate-900 transition-colors">Integrated AI Assistants</a></li>
+              <li><a href="#services" className="hover:text-slate-900 transition-colors">Social & DM Automation</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold text-slate-900 mb-6 uppercase tracking-wider text-sm">Company</h4>
             <ul className="space-y-4 text-slate-600">
               <li><a href="#how-it-works" className="hover:text-slate-900 transition-colors">About AIX</a></li>
-              <li><a href="#how-it-works" className="hover:text-slate-900 transition-colors">Case Studies</a></li>
               <li><a href="#" className="hover:text-slate-900 transition-colors">Privacy Policy</a></li>
               <li><a href="#contact" className="hover:text-slate-900 transition-colors">Contact</a></li>
             </ul>

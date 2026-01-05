@@ -28,12 +28,12 @@ const Benefits: React.FC = () => {
             <div className="space-y-10">
               <BenefitItem 
                 icon={<Icons.Clock />}
-                title="Save 20+ Hours Weekly"
+                title="Save up to 20+ Hours Weekly"
                 text="Reclaim your time from phone calls, quoting, and simple scheduling. Let your team focus on the work that requires their unique expertise."
               />
               <BenefitItem 
                 icon={<Icons.TrendingUp />}
-                title="Increase Booking Rate by 40%"
+                title="Increase booking rate up to 40%"
                 text="When you respond instantly, you win more business. Never lose another lead because you were busy on a different job."
               />
               <BenefitItem 
@@ -66,16 +66,12 @@ const Benefits: React.FC = () => {
                     <Icons.TrendingUp />
                   </div>
                 </div>
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="h-28 bg-slate-50 rounded-2xl p-6">
-                    <span className="text-xs font-bold text-slate-400">LEADS QUALIFIED</span>
-                    <div className="text-2xl font-extrabold text-slate-900 mt-1">482</div>
-                  </div>
-                  <div className="h-28 bg-slate-50 rounded-2xl p-6">
-                    <span className="text-xs font-bold text-slate-400">QUOTES SENT</span>
-                    <div className="text-2xl font-extrabold text-slate-900 mt-1">94</div>
-                  </div>
+                
+                <div className="h-28 bg-slate-50 rounded-2xl p-6">
+                  <span className="text-xs font-bold text-slate-400">LEADS QUALIFIED</span>
+                  <div className="text-2xl font-extrabold text-slate-900 mt-1">482</div>
                 </div>
+
                 <div className="p-4 bg-green-50 text-green-700 text-sm font-semibold rounded-xl flex items-center">
                   <span className="mr-2">✨</span> AI Receptionist handled 12 calls in the last 24 hours.
                 </div>

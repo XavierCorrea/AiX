@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-          AIX helps service-based businesses and legal firms automate bookings, build modern websites, and respond instantly to clients—freeing your team to focus on winning cases and growing.
+          AIX helps service-based businesses and more by automating bookings, helping activate your social media presence, building modern websites, and respond instantly to clients—freeing you and your team to focus on closing leads and growing.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
@@ -29,10 +29,10 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 grayscale opacity-60">
-          <div className="flex items-center justify-center text-sm font-bold tracking-widest text-slate-400">MED CARE</div>
-          <div className="flex items-center justify-center text-sm font-bold tracking-widest text-slate-400">LEX PARTNERS</div>
-          <div className="flex items-center justify-center text-sm font-bold tracking-widest text-slate-400">ESTATE PRO</div>
-          <div className="flex items-center justify-center text-sm font-bold tracking-widest text-slate-400">CLEAN CO</div>
+          <div className="flex items-center justify-center text-sm font-bold tracking-widest text-slate-400 uppercase">MED SPA</div>
+          <div className="flex items-center justify-center text-sm font-bold tracking-widest text-slate-400 uppercase">HVAC</div>
+          <div className="flex items-center justify-center text-sm font-bold tracking-widest text-slate-400 uppercase">DENTAL</div>
+          <div className="flex items-center justify-center text-sm font-bold tracking-widest text-slate-400 uppercase">MORE</div>
         </div>
       </div>
     </section>

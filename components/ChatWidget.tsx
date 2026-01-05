@@ -46,15 +46,14 @@ const ChatWidget: React.FC = () => {
         config: {
           systemInstruction: `You are the AI assistant for AIX, an AI automation and web development agency. 
           AIX offers: 
-          1. AI Receptionists (24/7 calls/bookings, excellent for Legal and Medical offices).
-          2. AI-Powered Websites (Building high-converting, AI-native sites for service businesses).
+          1. AI Receptionists (24/7 calls/bookings for service businesses).
+          2. AI-Powered Websites (Building high-converting, AI-native sites).
           3. AI Lead Qualifiers (screening leads).
-          4. AI Quote Generators (instant estimates).
-          5. AI Social DM automation.
+          4. AI Social & DM automation (Instagram, Facebook, Web Chat).
           
-          Target Audience: Business owners, Law Firm partners, Medical practitioners, and service operators.
+          Target Audience: Business owners and service operators looking for operational efficiency.
           Tone: Premium, helpful, optimistic, and human-centered.
-          Goal: Answer questions concisely. If a user is interested in a demo, legal automation, or website building, try to collect their name and email address so a human can follow up. 
+          Goal: Answer questions concisely. If a user is interested in a demo or website building, try to collect their name and email address so a human can follow up. 
           Avoid technical jargon. Always position AI as a supportive teammate.`,
           temperature: 0.7,
         },
@@ -94,7 +93,7 @@ const ChatWidget: React.FC = () => {
           {/* Header */}
           <div className="bg-slate-900 p-4 text-white">
             <h3 className="font-bold text-lg">AIX Assistant</h3>
-            <p className="text-xs text-slate-400">Online | Legal & Service Automation Experts</p>
+            <p className="text-xs text-slate-400">Online | AI & Service Automation Experts</p>
           </div>
 
           {/* Messages Area */}
@@ -128,7 +127,7 @@ const ChatWidget: React.FC = () => {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Ask about legal automation or web design..."
+              placeholder="Ask about AI automation or web design..."
               className="flex-1 bg-slate-50 border-none rounded-xl px-4 py-2 text-sm focus:ring-2 focus:ring-slate-200 outline-none"
             />
             <button
